@@ -1,7 +1,7 @@
 module.exports = {
   title: '{{name}}', // populated into 'publication.json', default to 'title' of the first entry or 'name' in 'package.json'.
   author: '{{contact}}', // default to 'author' in 'package.json' or undefined
-  // language: 'la',
+  // language: 'ja',
   // size: 'A4',
   theme: '{{theme.name}}', // .css or local dir or npm package. default to undefined
   entry: [
@@ -9,7 +9,7 @@ module.exports = {
     'manuscript.md', // 'title' is automatically guessed from the file (frontmatter > first heading)
     // {
     //   path: 'epigraph.md',
-    //   title: 'おわりに', // title can be overwritten (entry > file),
+    //   title: 'Epigraph', // title can be overwritten (entry > file),
     //   theme: '@vivliostyle/theme-whatever' // theme can be set indivisually. default to root 'theme'
     // },
     // 'glossary.html' // html is also acceptable
